@@ -1,0 +1,20 @@
+POST http://localhost:8080/api/product
+content-type: application/json
+accept: application/json
+
+{
+  "name": "Apple",
+  "description": "Ini Apple",
+  "price": "5500000"
+}
+
+####
+
+GET http://localhost:8080/api/products
+
+###
+
+GET http://localhost:8080/api/product/5
+
+
+
