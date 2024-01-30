@@ -14,7 +14,8 @@ GET http://localhost:8080/api/products
 
 ###
 
-GET http://localhost:8080/api/product/5
+GET http://localhost:8080/api/product/6
+
 
 
 
