@@ -56,8 +56,8 @@ class FileControllerTest {
             for (CSVRecord record : csvParser) {
                 System.out.println(record.get(0));
                 System.out.println(record.get(1));
-                System.out.println(record.get("Description"));
-                System.out.println(record.get("Price"));
+                System.out.println(record.get(2));
+                System.out.println(record.get(3));
             }
 
         } catch (IOException e) {
