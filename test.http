@@ -1,11 +1,11 @@
-POST http://localhost:8080/api/product
+POST http://217.196.48.228:8080/api/product
 content-type: application/json
 accept: application/json
 
 {
-  "name": "Apple",
-  "description": "Ini Apple",
-  "price": "5500000"
+  "name": "Macbook",
+  "description": "Ini Mac",
+  "price": "140000"
 }
 
 ####
@@ -16,6 +16,13 @@ GET http://localhost:8080/api/products
 
 GET http://localhost:8080/api/product/6
 
+###
+
+GET http://localhost:8080/api/csv/product2024-01-31_18-36-35.csv
+
+###
+
+DELETE http://localhost:8080/api/csv/123.csv
 
 
 
