@@ -52,7 +52,7 @@ public class ProductController {
     public ResponseEntity<String> getProductByid(@PathVariable(name = "id") Integer productId) {
         Product product = productRepository.getProductById(productId);
         return product != null ? ResponseEntity.ok(objectMapper.writeValueAsString(product)) : ResponseEntity.status(HttpStatus.NOT_FOUND).body(objectMapper.writeValueAsString(Map.of(
-                "error", "Product not found"
+                "error", "Product not founds"
         )));
     }
 
