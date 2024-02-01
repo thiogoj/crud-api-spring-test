@@ -71,7 +71,7 @@ public class FileController {
         if (file.isFile()) {
             file.delete();
             return ResponseEntity.ok(objectMapper.writeValueAsString(Map.of(
-                    "message", filename + " successs deleted"
+                    "message", filename + " success deleted"
             )));
         } else {
             return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(objectMapper.writeValueAsString(Map.of(
